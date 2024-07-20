@@ -1,0 +1,72 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#addTaskButton {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background-color:rgb(238, 255, 0);
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task button {
+    background: blue;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background:skyblue;
+}
